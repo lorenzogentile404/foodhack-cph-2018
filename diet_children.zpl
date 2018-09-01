@@ -29,7 +29,8 @@ param needed[NutritionalFeature] := <"Energy"> 673, <"Carbohydrates"> 75, <"Fats
 
 # Energy (kcal), Nn (g)
 
-#Vitamin A requirement would be 0.00128 g, but it would require too much camel whey to be satasfied. We should add to the mix something with vitamin A. 
+# Vitamin A requirement would be 0.00128 g, but it would require too much camel whey to be satasfied. We should add to the mix something with vitamin A.
+# The solution provided by the model has too much calories for a child (about 2000 kcal). We should add to the mix something in order to fix this problem. 
 
 param minAmountDesired[Food] := <"CamelWhey"> 0, <"Teff"> 0, <"Lentil"> 50;
 
